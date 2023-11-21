@@ -1,0 +1,36 @@
+body {
+    font-family: 'Impact', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.discordapp.com/attachments/1054274045182488589/1176429571738959932/adrien-olichon-RCAhiGJsUUE-unsplash.jpg?ex=656ed66a&is=655c616a&hm=d6d5465692493010fe20ee3afad3066df702e465e01691451392ad31ecac20a7&ackground.jpg'); /* Replace with your image file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Change text color to be visible on the background */
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay for better readability */
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .music iframe {
+    width: 100%;
+    max-width: 450px;
+    height: 175px;
+  }
+  
