@@ -1,48 +1,108 @@
-<html
- 
-lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-  
-<meta
- 
-charset="UTF-8">
-
-  
-<meta
- 
-name="viewport"
- 
-content="width=device-width, initial-scale=1.0">
-
-  
-<title>My Cool Website</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <title>Sundram Yadav - Social Pages</title>
 
-  <script src="https://embed.music.apple.com/embed/v1/playlist?id=pl.u1.06e31092efde4682b716a7c5f6df76c1&theme=light&playsInline=false&autoplay=false"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    header h1 {
+      margin: 0;
+      background-color: rgb(228, 228, 228);
+      border-radius: 10px;
+      padding: 20px;
+      color: #000; /* Black text color */
+    }
+
+    .social a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .social a img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      filter: grayscale(100%);
+    }
+
+    .music {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 660px;
+      overflow: hidden;
+      border-radius: 10px;
+      background-color: rgb(228, 228, 228);
+      margin-top: 20px;
+      margin-bottom: 0; /* Remove bottom margin */
+    }
+
+    iframe {
+      width: 100%;
+      height: 380px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>My Cool Website</h1>
+  <header>
+    <h1>Sundram</h1>
+    <p>Welcome to my Social Pages site!</p>
+  </header>
 
-    <div class="social-icons">
-      <a href="https://www.facebook.com/" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="Facebook icon">
-      </a>
-      <a href="https://www.twitter.com/" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/124/124002.svg" alt="Twitter icon">
-      </a>
-      <a href="https://www.instagram.com/" target="_blank">
-        <img src="https://image.flaticon.com/icons/svg/120/120001.svg" alt="Instagram icon">
-      </a>
-    </div>
+  <section class="social">
+    <!-- Twitter -->
+    <a href="https://twitter.com/alsosundram" target="_blank">
+      <img src="https://media.discordapp.net/attachments/1054274045182488589/1176438105109168228/pngwing.com_1.png?ex=656ede5d&is=655c695d&hm=e019d4ee09b7d971c5edcf4ad04e0f94189e8eddb268dc8311f2c43719721bfe&=&width=662&height=662" alt="Twitter Icon">
+      Twitter
+    </a>
 
-    <div class="apple-music-widget">
-      </div>
-  </div>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/sundram.saysss" target="_blank">
+      <img src="https://media.discordapp.net/attachments/1054274045182488589/1176438105432150056/pngwing.com.png?ex=656ede5d&is=655c695d&hm=ea5d234a0a255a87ff82b4c4a76082e86a7c32f9a273fcec171bc59fa695e250&=&width=662&height=662" alt="Instagram Icon">
+      Instagram
+    </a>
+    
+    <!-- UPI -->
+    <a href="https://media.discordapp.net/attachments/1054298681857290260/1174758267101126696/Paytm_QRcode_1.png?ex=6568c1e4&is=65564ce4&hm=4521b8ed9bcc17df4e663fb2bbb3e51bdbed9fda572050166fb4547cad05e2ba&=&width=392&height=661" target="_blank">
+      <img src="https://media.discordapp.net/attachments/1054298681857290260/1176444800707330149/UPI_logo_PNG_lyp5s5.png?ex=656ee499&is=655c6f99&hm=02994a158c2e5442d365359dfc3c68f446c86251a68b2a2004a180bc10dcc96b&=&width=1440&height=390" alt="Instagram Icon">
+      UPI
+    </a>
 
-  <script src="script.js"></script>
+    <!-- Add more social links as needed -->
+  </section>
+
+  <section class="music">
+    <!-- Add your Apple Music iframe code here -->
+    <iframe id="embedPlayer" src="https://embed.music.apple.com/us/album/radhe-radhe-barsane-wali-radhe/1645341852?i=1645341854&amp;app=music&amp;itsct=music_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; transform: translateZ(0px); animation: 2s ease 0s 6 normal none running loading-indicator; background-color: rgb(228, 228, 228);"></iframe>
+  </section>
+
 </body>
 </html>
